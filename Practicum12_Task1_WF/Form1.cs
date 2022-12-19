@@ -93,6 +93,7 @@ namespace Practicum12_Task1_WF
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message, "Ошибка");
+                return;
             }
             money += scal;
             MessageBox.Show($"Значение успешно изменено!\nЗначенение поля second равно {money.Second}", "Успех");
